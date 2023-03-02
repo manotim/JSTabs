@@ -9,7 +9,71 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>tabs project</h1>
+    <section class="section">
+        <div class="title">
+            <h2>about</h2>
+            <p>Our products include operating systems for personal computers ("PCs"), servers, phones, and other intelligent devices</p>
+        </div>
+        <div class="about-center section-center">
+            <article class="about-img">
+                <img src="./hero-bcg.jpeg" alt="about picture">
+            </article>
+            <article class="about">
+                <!-- button container -->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="history">history</button>
+                    <button class="tab-btn" data-id="vision">vision</button>
+                    <button class="tab-btn" data-id="goals">goals</button>
+                </div>
+                <article class="about-content">
+                    <!-- single item -->
+                    <div class="content active" id="history">
+                        <h4>history</h4>
+                        <p>Randall Knives, a knife manufacturer, 
+                        tells its corporate history from the point of view of the company founder. 
+                        As he explains how he got the idea for 
+                        the business and its growth, he weaves together values of longevity, commitment to quality and family.
+                         The accompanying timeline offers an 
+                        easy-to-read visual presentation of the story.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="vision">
+                        <h4>vision</h4>
+                            <p>
+                            Microsoft inspiring vision statement seeks to support people. 
+                            You can see its intention is not about business,
+                             it is about people and giving those 
+                            people the tools to be their best selves. With this aim, Microsoft has numerous initiatives. 
+                            Ita big supporter of inclusivity, diversity, environmental issues,
+                            and corporate responsibility. And to put its money where its mouth is, it offers free health care 
+                            to all employees, including vision and dental.
+                            </p>
+                            <ul>
+                                <li>To ensure better quality products for customers</li>
+                                <li>ensure fair prices for customers</li> 
+                                <li> ensure fair trade practices</li>
+                            </ul>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="goals">
+                        <h4>goals</h4>
+                            <p>Being active and engaged in the community is a great way to connect with potential local customers 
+                                and can help you establish stronger relationships, build trust and boost brand recognition.
+                                with potential customers. This is especially effective for newer businesses,
+                                 as it's a great way for them to get to
+                             know community members and build lasting connections.
+                            </p>
+                            
+                    </div>
+                    <!-- end of single item -->
+                </article>
+            </article>
+            
+        </div>
+    </section>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
